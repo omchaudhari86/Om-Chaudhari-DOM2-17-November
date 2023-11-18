@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Coin Market Cap</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #ccc;
+        }
+
+        .positive {
+            color: green;
+        }
+
+        .negative {
+            color: red;
+        }
+
+        .coin-image {
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Coin Market Cap</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Icon</th>
+                <th>Name</th>
+                <th>Symbol</th>
+                <th>Current Price</th>
+                <th>Total Volume</th>
+                <th>% Change</th>
+            </tr>
+        </thead>
+        <tbody id="coin-table"></tbody>
+    </table>
+
+    <script>
+        // TODO: Fetch data from API and populate the table
+    </script>
+
+</body>
+
+</html>

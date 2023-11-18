@@ -1,0 +1,23 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    margin-top: 10px;
+}
+
+.coin-image {
+    vertical-align: middle;
+}
+
+.positive {
+    font-weight: bold;
+}
+
+.negative {
+    font-weight: bold;
+}
